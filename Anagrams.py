@@ -11,6 +11,7 @@ def anagrams(method,str1,str2):
     if len(str1)!=len(str2):
         return False
     if method=='1':
+        #Space Complexity - O(1)
         if sorted(str1)==sorted(str2):
             return True
     elif method=='2':
